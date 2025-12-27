@@ -1,0 +1,21 @@
+.sidebar {
+  min-width: 200px;
+  margin-right: 16px;
+}
+
+.hr {
+  width: 193px;
+  height: 1px;
+  background: linear-gradient(to right, #8698A2 0%, #222A32 100%);
+}
+
+.payment-types {
+  list-style-type: none;
+  margin: 17px 0 0 0;
+  padding: 0;
+}
+.payment-types li {
+  padding: 3px 0px;
+  color: #8698A2;
+  font-size: 14px;
+}/*# sourceMappingURL=Sidebar.module.css.map */

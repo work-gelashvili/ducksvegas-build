@@ -1,0 +1,55 @@
+.bets {
+  margin-top: 48px;
+}
+.bets__container {
+  background-color: #19212A;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.bets__container--out {
+  width: 100%;
+  overflow: auto;
+}
+.bets__container--out::-webkit-scrollbar {
+  height: 0px;
+}
+.bets__header {
+  width: 100%;
+  display: flex;
+  padding: 32px 0 16px 0;
+  border-bottom: 1px solid #222A32;
+}
+.bets__left {
+  width: 50%;
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .bets__left {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+.bets__right {
+  width: 50%;
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .bets__right {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+.bets__title {
+  width: 100%;
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 600;
+}
+.bets__game {
+  width: 100%;
+  margin-left: 17px;
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 600;
+}/*# sourceMappingURL=BetsTabs.module.css.map */

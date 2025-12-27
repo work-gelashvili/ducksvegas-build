@@ -1,0 +1,140 @@
+.settings {
+  display: block;
+  max-width: 632px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+@media (max-width: 1024px) {
+  .settings {
+    padding: 48px 24px;
+    min-width: 100%;
+  }
+}
+.settings-btn {
+  padding: 0 83px;
+  margin-left: 43px;
+}
+@media (max-width: 1200px) {
+  .settings-btn {
+    padding: 0 63px;
+    margin-left: 23px;
+  }
+}
+@media (max-width: 1024px) {
+  .settings-btn {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+    padding: 0 43px;
+  }
+}
+.settings-submit {
+  width: 200px;
+}
+@media (max-width: 1024px) {
+  .settings-submit {
+    width: 100%;
+  }
+}
+.settings__verify {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #222A32;
+}
+@media (max-width: 1024px) {
+  .settings__verify {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.settings__verify--status {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 1024px) {
+  .settings__verify--status {
+    width: 100%;
+  }
+}
+.settings__verify--status span {
+  color: #FF035B;
+}
+.settings__verify--btn {
+  padding: 9px 34px;
+  border-radius: 24px;
+  border: 1px solid #FFDA00;
+  background-color: transparent;
+  color: #FFDA00;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .settings__verify--btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+.settings__identity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .settings__identity {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+.settings__identity--right {
+  max-width: 411px;
+  width: 100%;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+.settings__identity--icon {
+  width: 64px;
+  height: 56px;
+  margin-right: 12px;
+}
+.settings__identity--icon svg {
+  width: 100%;
+  height: 100%;
+}
+.settings__identity--title {
+  margin-bottom: 9px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.settings__identity--desc {
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 500;
+}
+.settings__identity--btn {
+  width: 182px;
+  height: 36px;
+}
+@media (max-width: 1024px) {
+  .settings__identity--btn {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
+
+.remove-border {
+  border: none;
+  margin-top: 10px;
+}/*# sourceMappingURL=Settings.module.css.map */

@@ -1,0 +1,31 @@
+.recent-wins-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+.recent-wins-container::-webkit-scrollbar {
+  height: 0px;
+}
+@media (max-width: 1024px) {
+  .recent-wins-container {
+    overflow: auto;
+  }
+}
+
+.recent-win-nft-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.recent-win-nft-head p {
+  color: white;
+}
+
+.recent-win-nft-title {
+  padding-left: 10px;
+  border-left: 3px solid #31CDC9;
+}/*# sourceMappingURL=RecentWins.module.css.map */

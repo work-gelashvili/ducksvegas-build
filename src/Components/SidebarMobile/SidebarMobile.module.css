@@ -1,0 +1,38 @@
+.sidebar-title {
+  margin-bottom: 32px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+@media (max-width: 1024px) {
+  .sidebar {
+    padding: 24px 0 0 24px;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 75%;
+    height: 100%;
+    z-index: 0;
+    -webkit-animation-name: SlowOpenMenu;
+            animation-name: SlowOpenMenu;
+    -webkit-animation-duration: 0.4s;
+            animation-duration: 0.4s;
+  }
+}
+@-webkit-keyframes SlowOpenMenu {
+  0% {
+    min-width: 1%;
+  }
+  100% {
+    min-width: 75%;
+  }
+}
+@keyframes SlowOpenMenu {
+  0% {
+    min-width: 1%;
+  }
+  100% {
+    min-width: 75%;
+  }
+}/*# sourceMappingURL=SidebarMobile.module.css.map */

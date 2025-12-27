@@ -1,0 +1,12 @@
+.amount {
+  display: block;
+  min-width: 276px;
+  padding: 16px 32px 32px 32px;
+}
+.amount-title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}/*# sourceMappingURL=Amount.module.css.map */

@@ -1,0 +1,23 @@
+.items-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+
+    &::-webkit-scrollbar{
+        height: 0px;
+    }
+
+    @media (max-width: 1024px) {
+        overflow: auto;
+    }
+}
+.section-title{
+    margin-top: 48px;
+    padding-left: 10px;
+    border-left: 3px solid #FFDA00;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}

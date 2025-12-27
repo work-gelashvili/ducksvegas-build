@@ -1,0 +1,23 @@
+.reg-container{
+    min-width: 374px;
+    background: #222A32;
+
+    @media (max-width: 768px) {
+        min-width: 100%;
+    }
+}
+.reg-content{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #222A32;
+    // height: 100vh;
+}
+.reg-background{
+    background-image: url('../../../icons/SignIn.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(100% - 374px);
+    height: 100vh;
+}

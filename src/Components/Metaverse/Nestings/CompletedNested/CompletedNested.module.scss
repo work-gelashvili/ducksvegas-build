@@ -1,0 +1,24 @@
+.nest-completed-container{
+    width: 90%;
+    max-width: 848px;
+    margin: 57px auto 0px auto;
+    .progress-empty-line{
+        width: 100%;
+        position: relative;
+        height: 8px;
+        background: #3D4C54;
+        border-radius: 7px;
+    }
+    .progress-line{
+        height: 8px;
+        border-radius: 7px;
+        border: none;
+        background: #FFDA00;
+    }
+    .nested-info-in-percents{
+        transform: translateX(-100%);
+        color: white;
+        margin-top: 8px;
+        width: fit-content;
+    }
+}

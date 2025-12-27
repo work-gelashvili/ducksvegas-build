@@ -1,0 +1,118 @@
+.edit {
+  max-width: 632px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+@media (max-width: 1024px) {
+  .edit {
+    padding: 48px 24px;
+    min-width: 100%;
+  }
+}
+
+.profile {
+  display: block;
+}
+.profile__private {
+  width: 100%;
+  margin-bottom: 56px;
+  margin-top: 8px;
+}
+.profile__checkbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profile__checkbox--checked {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  left: 0;
+  top: 0;
+  background-color: #ffda00;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.profile__checkbox--checked img {
+  width: 100%;
+  height: 100%;
+}
+.profile__checkbox--input {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.profile__checkbox--input:checked ~ .profile__checkbox--checked {
+  background-color: transparent;
+}
+.profile__checkbox--text {
+  color: #8698a2;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.profile__form {
+  margin-left: -12px;
+  margin-right: -12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media (max-width: 1024px) {
+  .profile__form {
+    margin: 0;
+  }
+}
+.profile__form--content {
+  padding: 0 12px;
+  width: 50%;
+  margin-bottom: 32px;
+}
+@media (max-width: 1024px) {
+  .profile__form--content {
+    width: 100%;
+    padding: 0;
+  }
+}
+.profile__form--btn {
+  width: 205px;
+  height: 46px;
+}
+@media (max-width: 1024px) {
+  .profile__form--btn {
+    width: 100%;
+  }
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #222A32; /* If you want dots under the hoverable text */
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 288px;
+  background-color: #222A32;
+  color: #fff;
+  text-align: left;
+  margin-top: -90px;
+  margin-left: -35px;
+  padding: 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}/*# sourceMappingURL=Profile.module.css.map */

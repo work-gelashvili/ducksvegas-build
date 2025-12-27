@@ -1,0 +1,23 @@
+.coin-currencies-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  margin-left: -8px;
+  margin-right: -8px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+.coin-currencies-list::-webkit-scrollbar {
+  height: 0px;
+}
+
+.coin-currencies-title {
+  color: white;
+  margin-top: 48px;
+  font-size: 16px;
+  font-weight: bold;
+  border-left: 3px solid #FFDA00;
+  padding-left: 10px;
+}/*# sourceMappingURL=CryptoCurrencies.module.css.map */

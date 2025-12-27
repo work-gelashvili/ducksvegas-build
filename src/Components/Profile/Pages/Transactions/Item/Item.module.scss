@@ -1,0 +1,45 @@
+.items {
+    &-list {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #222A32;
+        padding: 8px 23px;
+
+        &-item {
+            width: calc(100% / 5);
+            display: flex;
+            align-items: center;
+            color: #fff;
+
+            p {
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+
+        &-withdraw {
+            padding: 7px 11px;
+            border-radius: 16px;
+            background-color: #0E3130;
+            color: #31CDC9;
+        }
+
+        &-deposit {
+            padding: 7px 11px;
+            border-radius: 16px;
+            background-color: #312C0E;
+            color: #FFDA00;
+        }
+
+        &-silver {
+            margin-left: 5px;
+            color: #8698A2;
+        }
+
+        &-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 12px;
+        }
+    }
+}

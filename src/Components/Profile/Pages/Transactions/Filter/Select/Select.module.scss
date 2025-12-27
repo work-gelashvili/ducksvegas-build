@@ -1,0 +1,26 @@
+.select {
+    min-width: 165px;
+    display: block;
+    padding: 12px 0;
+
+    &-item {
+        padding: 7px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #8698A2;
+        font-size: 14px;
+        font-weight: 500;
+        list-style: none;
+        cursor: pointer;
+
+        &.active {
+            color: #fff;
+        }
+
+        &:hover {
+            background-color: #222A32;
+            color: #fff;
+        }
+    }
+}

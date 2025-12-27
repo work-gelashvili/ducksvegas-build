@@ -1,0 +1,58 @@
+.coin {
+    display: flex;
+    align-items: center;
+    margin: 0 24px 0 0px;
+    padding: 17px 0;
+    cursor: pointer;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+
+    &__icon {
+        margin-right: 11px;
+        width: 36px;
+        height: 36px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__name {
+        margin-bottom: 2px;
+        color: #26A17B;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    &__count {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        
+        span {
+            display: flex;
+            align-items: center;
+
+            p {
+                width: 14px;
+                height: 14px;
+                margin-left: 9px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #F9DB4A;
+                color: #000;
+                font-weight: 700;
+            }
+        }
+    }
+
+    &__loading {
+        width: 80px;
+        height: 20px;
+    }
+}

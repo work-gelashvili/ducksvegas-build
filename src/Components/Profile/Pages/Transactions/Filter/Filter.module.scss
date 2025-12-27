@@ -1,0 +1,31 @@
+.filter {
+    display: block;
+    margin-left: 32px;
+    position: relative;
+
+    &-head {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+
+        img {
+            margin-left: 8px;
+        }
+    }
+
+    &-body {
+        margin-top: 20px;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        border: 1px solid #1D2936;
+        box-shadow: 0 4px 8px 0 rgba(#000, .50);
+        border-radius: 12px;
+        background-color: #19212A;
+
+    }
+}

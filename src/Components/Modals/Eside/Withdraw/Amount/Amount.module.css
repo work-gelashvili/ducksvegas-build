@@ -1,0 +1,44 @@
+.amount {
+  display: block;
+  padding: 27px 0;
+}
+.amount-title {
+  margin-bottom: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.amount-input {
+  margin-bottom: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.amount-input-valute {
+  position: absolute;
+  right: 24px;
+  color: #31CDC9;
+  font-size: 14px;
+  font-weight: 600;
+}
+.amount-parcents {
+  display: flex;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 10px;
+}
+.amount-parcents-out {
+  width: 100%;
+  padding: 0 8px;
+}
+.amount-parcents-item {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #222A32;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}/*# sourceMappingURL=Amount.module.css.map */

@@ -1,0 +1,26 @@
+.body {
+  width: 100%;
+  min-height: calc(100vh - 375px);
+  background-color: #222A32;
+  padding-top: 32px;
+}
+.body__content {
+  width: 100%;
+}
+.body__content__flex {
+  display: flex;
+  width: 100%;
+}
+
+.body-without-padding {
+  width: 100%;
+  background-color: #222A32;
+  padding-top: 0px;
+}
+.body-without-padding__content {
+  width: 100%;
+}
+.body-without-padding__content__flex {
+  display: flex;
+  width: 100%;
+}/*# sourceMappingURL=Body.module.css.map */

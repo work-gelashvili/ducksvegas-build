@@ -1,0 +1,128 @@
+.slot {
+  width: 100%;
+}
+.slot__content {
+  width: 100%;
+  background-color: #19212A;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1024px) {
+  .slot__content {
+    background-color: transparent;
+    padding: 0;
+  }
+}
+.slot__cat {
+  margin-bottom: 8px;
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 600;
+}
+.slot__title {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+.slot__view {
+  width: 100%;
+  height: 572px;
+  display: block;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  background-color: #8698A2;
+}
+@media (max-width: 1024px) {
+  .slot__view {
+    width: unset;
+    margin-left: -24px;
+    margin-right: -24px;
+    height: 100vw;
+    max-height: 100vh;
+    min-height: 211px;
+  }
+}
+.slot__view-fullscreen {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 110%;
+  z-index: 5;
+}
+.slot__btns {
+  margin: 20px 0 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.slot__text {
+  max-width: 746px;
+  margin: auto;
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.slot__text h1 {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.slot__text p {
+  margin-bottom: 15px;
+}
+
+.game-loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.game-loading-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.maximize-button {
+  width: 32px;
+  height: 32px;
+  background: #3D4C54;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.maximize-button-mini {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 6;
+}
+
+.maximize-container {
+  display: flex;
+  align-items: center;
+}
+.maximize-container p {
+  color: #8698A2;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.switch-demo-button {
+  display: flex;
+  align-items: center;
+}
+.switch-demo-button p {
+  margin-left: 10px;
+  color: #8698A2;
+  font-size: 14px;
+}/*# sourceMappingURL=Slot.module.css.map */

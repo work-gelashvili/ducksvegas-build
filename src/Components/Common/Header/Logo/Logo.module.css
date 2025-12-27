@@ -1,0 +1,20 @@
+.logo {
+  min-width: 200px;
+  margin-right: 16px;
+}
+@media (max-width: 1024px) {
+  .logo {
+    min-width: unset;
+    margin-right: 0;
+  }
+}
+.logo__link {
+  display: block;
+}
+.logo__link img {
+  width: 112px;
+}
+.logo__link--loading {
+  width: 112px;
+  height: 58px;
+}/*# sourceMappingURL=Logo.module.css.map */

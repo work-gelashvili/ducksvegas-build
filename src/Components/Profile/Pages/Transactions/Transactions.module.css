@@ -1,0 +1,27 @@
+.transactions {
+  padding: 48px 0 32px 0;
+}
+.transactions-head {
+  padding: 0 24px 50px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.transactions-body {
+  width: 100%;
+}
+.transactions-body-head {
+  display: flex;
+  border-bottom: 1px solid #222A32;
+  padding: 10px 23px;
+}
+.transactions-body-title {
+  width: 20%;
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 600;
+}
+.transactions-filters {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=Transactions.module.css.map */

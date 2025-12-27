@@ -1,0 +1,8 @@
+.connect-socials-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px !important;
+  width: calc(100% - 48px);
+  margin: auto;
+}/*# sourceMappingURL=ConnectWithSocial.module.css.map */

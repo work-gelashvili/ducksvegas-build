@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    padding: 48px 0 85px 0;
+    background-color: #222A32;
+
+    &__comp {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: 1024px) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 402px;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    &__desc {
+        margin-bottom: 24px;
+        color: #8698A2;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    &__copy {
+        color: #8698A2;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    &__menu {
+        display: flex;
+
+        @media (max-width: 1024px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}

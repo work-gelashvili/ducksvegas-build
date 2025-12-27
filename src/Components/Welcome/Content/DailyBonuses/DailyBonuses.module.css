@@ -1,0 +1,14 @@
+.dailybonuses {
+  display: flex;
+  margin-top: 24px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.dailybonuses__out::-webkit-scrollbar {
+  height: 0px;
+}
+@media (max-width: 1024px) {
+  .dailybonuses__out {
+    overflow: auto;
+  }
+}/*# sourceMappingURL=DailyBonuses.module.css.map */

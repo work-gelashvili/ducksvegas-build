@@ -1,0 +1,108 @@
+.eside {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.eside-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #12161C;
+  opacity: 0.9;
+  position: absolute;
+}
+.eside-content {
+  width: 0;
+  height: 100%;
+  max-width: 390px;
+  padding: 50px 30px;
+  display: block;
+  background-color: #19212A;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-left: 1px solid #202935;
+  z-index: 1;
+  overflow: auto;
+  -webkit-animation-name: SlowOpenMenu;
+          animation-name: SlowOpenMenu;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+.eside-back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.eside-back-count {
+  color: #8997A1;
+  font-size: 14px;
+  font-weight: 600;
+}
+.eside-step-title {
+  margin: 48px 0 32px 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.eside-active {
+  width: 100%;
+  -webkit-animation-name: SlowOpenMenuopen;
+          animation-name: SlowOpenMenuopen;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+@-webkit-keyframes SlowOpenMenuopen {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes SlowOpenMenuopen {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes SlowOpenMenu {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+@keyframes SlowOpenMenu {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+.eside-close {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.eside-close img {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  margin-right: 16px;
+  background-color: #222A32;
+  border-radius: 50%;
+}/*# sourceMappingURL=Eside.module.css.map */

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+a, p, h1, h2, h3, h4, h5, h6, span, div td, th, pre, strong{
+    font-family: 'Quicksand', sans-serif;
+} 
+
+.App {
+    padding-top: 104px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.app-in {
+    background-color: #222A32;
+    width: 100%;
+    position: absolute;
+    /* right: -80%; */
+}
+
+@media (max-width: 1024px) {
+    .App {
+        padding-top: 0;
+        width: 100%;
+        display: flex;
+    }
+
+    .App-in {
+        min-width: 100%;
+        z-index: 1;
+        overflow-x: hidden;
+    }
+}
+
+.app-without-padding{
+    padding-top: 0px;
+}
+
+.app-out {
+    display: flex;
+    justify-content: center;
+}
+
+.registration-auth-form-control{
+    width: 100%;
+    height: 100%;
+    background: #19212a;
+    border-radius: 46px;
+    border: 1px solid #19212a;
+    padding-left: 24px;
+    font-size: 14px;
+    outline: none;
+    color: #8698A2;
+}
+.registration-auth-form-control:focus{
+    border: 1px solid #ffda00;
+}
+
+.registration-auth-form-control:-webkit-autofill,
+.registration-auth-form-control:-webkit-autofill:hover{
+  -webkit-text-fill-color: #8698A2;
+  border: none;
+  box-shadow: 0 0 0px 1000px #19212A inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+.registration-auth-form-control:-webkit-autofill:focus{
+    -webkit-text-fill-color: #8698A2;
+    border: 1px solid #ffda00;
+    box-shadow: 0 0 0px 1000px #19212A inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.disable-element {
+    position: relative;
+    opacity: .37;
+}
+.disable-element::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    display: block;
+}

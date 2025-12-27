@@ -1,0 +1,22 @@
+.logo {
+    min-width: 200px;
+    margin-right: 16px;
+
+    @media (max-width: 1024px) {
+        min-width: unset;
+        margin-right: 0;
+    }
+
+    &__link {
+        display: block;
+
+        img {
+            width: 112px;
+        }
+
+        &--loading {
+            width: 112px;
+            height: 58px;
+        }
+    }
+}

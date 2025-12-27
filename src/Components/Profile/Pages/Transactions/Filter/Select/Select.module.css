@@ -1,0 +1,23 @@
+.select {
+  min-width: 165px;
+  display: block;
+  padding: 12px 0;
+}
+.select-item {
+  padding: 7px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 500;
+  list-style: none;
+  cursor: pointer;
+}
+.select-item.active {
+  color: #fff;
+}
+.select-item:hover {
+  background-color: #222A32;
+  color: #fff;
+}/*# sourceMappingURL=Select.module.css.map */

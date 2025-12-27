@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  background-color: #222A32;
+  padding: 22px 0px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 1024px) {
+  .header {
+    position: relative;
+  }
+}
+.header__comp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .header__comp {
+    justify-content: space-between;
+  }
+}
+.header-mobile-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header-mobile-bar {
+  background-color: #222A32;
+}/*# sourceMappingURL=Header.module.css.map */

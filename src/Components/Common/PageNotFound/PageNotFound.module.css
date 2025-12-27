@@ -1,0 +1,11 @@
+.message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 375px);
+}
+.message-container p {
+  color: white;
+  font-size: 40px;
+}/*# sourceMappingURL=PageNotFound.module.css.map */

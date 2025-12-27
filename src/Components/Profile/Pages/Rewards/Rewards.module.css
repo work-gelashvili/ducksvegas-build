@@ -1,0 +1,109 @@
+.rewards {
+  display: block;
+  max-width: 632px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+.rewards__item {
+  border-bottom: 1px solid #222A32;
+  padding: 0 0 30px 0;
+  margin: 0 0 30px 0;
+}
+.rewards__item--profile {
+  display: flex;
+  align-items: center;
+}
+.rewards__item--profile-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.rewards__item--profile-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.rewards__item--name {
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+.rewards__item--footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rewards__item--wagered {
+  color: #8698A2;
+}
+.rewards__item--wagered span {
+  color: #31CDC9;
+}
+.rewards__item--icon {
+  margin: 0px 10px;
+}
+.rewards__item--next {
+  display: flex;
+  align-items: center;
+  color: #8698A2;
+}
+.rewards__item--next p {
+  color: #fff;
+}
+.rewards__item--next span {
+  color: aqua;
+}
+.rewards__item--rate {
+  width: 100%;
+  height: 14px;
+  border-radius: 8px;
+  background-color: #222A32;
+  overflow: hidden;
+  display: block;
+}
+.rewards__item--rated {
+  width: 20%;
+  height: 100%;
+  background-color: #FFDA00;
+  border-radius: 8px;
+  display: block;
+}
+.rewards__item--in {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rewards__item--cover {
+  width: 56px;
+  height: 56px;
+  margin-right: 16px;
+}
+.rewards__item--cover img {
+  width: 100%;
+  height: 100%;
+}
+.rewards__item--title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.rewards__item--desc {
+  margin-top: 8px;
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 500;
+}
+.rewards__item--claim {
+  padding: 9px 35px;
+}
+
+.rewards-item-container {
+  border-bottom: 1px solid #222A32;
+  margin: 0 0 30px 0;
+}/*# sourceMappingURL=Rewards.module.css.map */

@@ -1,0 +1,32 @@
+.transactions {
+    padding: 48px 0 32px 0 ;
+
+    &-head {
+        padding: 0 24px 50px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-body {
+        width: 100%;
+
+        &-head {
+            display: flex;
+            border-bottom: 1px solid #222A32;
+            padding: 10px 23px;
+        }
+
+        &-title {
+            width: calc(100% / 5);
+            color: #8698A2;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+
+    &-filters {
+        display: flex;
+        align-items: center;
+    }
+}

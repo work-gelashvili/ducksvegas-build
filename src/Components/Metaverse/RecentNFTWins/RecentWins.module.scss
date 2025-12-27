@@ -1,0 +1,29 @@
+.recent-wins-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: -8px;
+    margin-left: -8px;
+
+    &::-webkit-scrollbar{
+        height: 0px;
+    }
+
+    @media (max-width: 1024px) {
+        overflow: auto;
+    }
+}
+.recent-win-nft-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    p{
+        color: white;
+    }
+}
+.recent-win-nft-title{
+    padding-left: 10px;
+    border-left: 3px solid #31CDC9;
+}

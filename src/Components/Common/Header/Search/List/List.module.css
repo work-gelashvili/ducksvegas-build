@@ -1,0 +1,74 @@
+.list {
+  position: absolute;
+  padding: 32px;
+  background-color: #19212A;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  top: 90px;
+}
+.list__in {
+  max-height: 500px;
+  overflow: auto;
+}
+.list__in::-webkit-scrollbar {
+  width: 4px;
+}
+.list__not {
+  margin-top: 32px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+.list__title {
+  display: block;
+  margin-bottom: 16px;
+  color: #8698A2;
+  font-size: 12px;
+  font-weight: 600;
+}
+.list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.list__cover {
+  width: 99px;
+  height: 58px;
+  margin-right: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.list__cover img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.list__name {
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.list__cat {
+  color: #8698A2;
+  font-size: 14px;
+  font-weight: 500;
+}
+.list__menu {
+  margin-top: 32px;
+  display: block;
+}
+.list__link {
+  display: block;
+  margin-top: 14px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.list__link:hover {
+  color: #31CDC9;
+  text-decoration: underline;
+}/*# sourceMappingURL=List.module.css.map */

@@ -1,0 +1,33 @@
+.load-more-button-block {
+  display: flex;
+  justify-content: center;
+}
+.load-more-button-block button {
+  width: 280px;
+  height: 46px;
+  border-radius: 24px;
+  background: white;
+  border: none;
+  color: black;
+  font-size: 16px;
+  margin-top: 56px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.slots-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-left: -8px;
+  justify-content: space-between;
+}
+@media (max-width: 425px) {
+  .slots-list {
+    min-width: 100%;
+  }
+}
+.slots-search {
+  width: 100%;
+  margin-top: 48px;
+}/*# sourceMappingURL=Slots.module.css.map */
